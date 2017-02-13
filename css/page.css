@@ -1,36 +1,106 @@
 body {
-
+	font-family: Tahoma;
 }
 .wrapper {
 	width: 1000px;
-	border: 2px solid red;
+
 	margin: 0 auto;
 }
 .logo {
 	border: 2px solid green;
 }
 .content {
-	border: 2px solid blue;
+	
 }
 .center_panel ul {
 	font-size:14px;
-	font-family: Tahoma;
 	background-color: #333333;
+	border: 1px solid #000000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .menu li{
 	display: inline-block;
-	padding: 5px;
 	background-color: #333333;
-	color:#999999;
+	color:#ffffff;
 }
 .menu a {
 	text-decoration: none;
-	color:#999999;
+	color:#ffffff;
 }
 .main_page {
-	margin: 9px 0 11px 68px;
+	margin: 9px 33px 11px 68px;
 }
- .menu li span {
-	font-size:10px;
+.menu li span {
+	font-size:8px;
+	vertical-align:middle;
+}
+.trip {
+	margin: 9px 26px 0 33px;
+	padding-bottom: 11px;
+	position:relative;
+}
+.services {
+	margin: 9px 32px 0px 26px;
+	padding-bottom: 11px;
+	position:relative;
+}
+.partners {
+	margin: 9px 27px 0 32px;
+	padding-bottom: 11px;
+	position:relative;
+}
+.reviews {
+	margin: 9px 36px 11px 27px;
+}
+.about {
+	margin: 9px 31px 11px 36px;
+}
+.contacts {
+	margin: 9px 0 11px 31px;
+}
+.drop_menu {
+	position:absolute;
+	width:130px;
+	padding-left: 9px;
+	left: -9px;
+	top:26px;
+	display:none;
+}
+.drop_menu li {
+	margin-top: 10px;
+}
+.drop_menu_last_point {
+	margin-bottom: 10px;
+}
+.menu .trip:hover ul,
+.menu .services:hover ul,
+.menu .partners:hover ul {
+	display:block;
+}
+.services .drop_menu {
+	width: 90px;
+}
+.information {
+	float:left;
+	border-right: 1px solid #cccccc;
+	height: 250px;
+}
+.news{
+	float: right;
+	border-left: 1px solid #cccccc;
+	
+}
+.information,
+.news {
+	font-size: 18px;
+	width: 210px;
+	text-align: center;
+	background-color: #edeef0;
+	color:#333333;
+	line-height:24px;
+}
+.information p,
+.news p {
+	font-size: 14px;
 }
