@@ -1,0 +1,36 @@
+body {
+
+}
+.wrapper {
+	width: 1000px;
+	border: 2px solid red;
+	margin: 0 auto;
+}
+.logo {
+	border: 2px solid green;
+}
+.content {
+	border: 2px solid blue;
+}
+.center_panel ul {
+	font-size:14px;
+	font-family: Tahoma;
+	background-color: #333333;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 5px;
+	background-color: #333333;
+	color:#999999;
+}
+.menu a {
+	text-decoration: none;
+	color:#999999;
+}
+.main_page {
+	margin: 9px 0 11px 68px;
+}
+ .menu li span {
+	font-size:10px;
+}
