@@ -1,17 +1,37 @@
 body {
 	font-family: Tahoma;
+	background-image: url(../Images/bg.png);
+	background-color: #43739c;
+	background-position: 0 -45px;
 }
 .wrapper {
 	width: 1000px;
-
 	margin: 0 auto;
 }
+.head {
+	background-color: #fff;
+}
 .logo {
-	border: 2px solid green;
+	float:left;
 }
-.content {
-	
+.countries {
+	border: 1px solid red;
 }
+.link {
+	font-size: 10px;
+	text-align: center;
+}
+.flex_conteiner {
+	float: right;
+	display: flex;
+	width: 324px;
+	height: 55px;
+	flex-direction:row;
+	align-items: center;
+	justify-content:space-between;
+	flex-flow:wrap;
+}
+.photo {border:solid 1px #669999;}
 .center_panel ul {
 	font-size:14px;
 	background-color: #333333;
@@ -36,17 +56,18 @@ body {
 	vertical-align:middle;
 }
 .trip {
-	margin: 9px 26px 0 33px;
-	padding-bottom: 11px;
+	margin: 0 26px 0 33px;
+	padding:9px 0 11px 0;
 	position:relative;
 }
 .services {
-	margin: 9px 32px 0px 26px;
-	padding-bottom: 11px;
+	margin: 0 32px 0px 26px;
+	padding:9px 0 11px 0;
 	position:relative;
 }
 .partners {
-	margin: 9px 27px 0 32px;
+	margin: 0 27px 0 32px;
+	padding:9px 0 11px 0;
 	padding-bottom: 11px;
 	position:relative;
 }
@@ -64,7 +85,7 @@ body {
 	width:130px;
 	padding-left: 9px;
 	left: -9px;
-	top:26px;
+	top:34px;
 	display:none;
 }
 .drop_menu li {
@@ -81,26 +102,47 @@ body {
 .services .drop_menu {
 	width: 90px;
 }
+.colums {
+	overflow: hidden;
+	background: linear-gradient(to right,
+		#edeef0 210px,
+		#cccccc 210px,
+		#FFFFFf 212px, 
+		#FFFfff 788px, 
+		#cccccc 788px,
+		#edeef0 790px)
+}
 .information {
 	float:left;
-	border-right: 1px solid #cccccc;
-	height: 250px;
+
 }
 .news{
 	float: right;
-	border-left: 1px solid #cccccc;
-	
 }
+
 .information,
 .news {
+	overflow: hidden;
 	font-size: 18px;
 	width: 210px;
 	text-align: center;
-	background-color: #edeef0;
 	color:#333333;
 	line-height:24px;
 }
+
 .information p,
 .news p {
 	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.main_content {
+	overflow: hidden;
+	margin: 0 211px 0 211px;
+}
+.footer {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	margin: 9px;
 }
