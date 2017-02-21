@@ -16,15 +16,15 @@ body {
 }
 
 .logo {
-	float:left;
+	float: left;
 	position: relative;
 	margin-left: 30px;
 }
 
 .jorney {
 	position: absolute;
-	top:110px;
-	left:75px;
+	top: 110px;
+	left: 75px;
 	color: #128aa7;
 	font-size: 12px;
 }
@@ -34,11 +34,11 @@ body {
 	margin: 6px 0 35px 0;
 	color: #128aa7;
 	font-size: 12px;
-	width: 124px;
+	width: 125px;
 	height: 65px;
 	display: flex;
-	flex-direction:column;
-	justify-content:space-between;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .head_contacts p a {
@@ -47,8 +47,11 @@ body {
 }
 
 .head_right {
-	float:right;
+	float: right;
 	margin-right: 32px;
+}
+.head_contacts p:hover a{
+	text-decoration: underline;
 }
 
 .countries_flex_conteiner {
@@ -56,10 +59,10 @@ body {
 	display: flex;
 	width: 324px;
 	height: 55px;
-	flex-direction:row;
+	flex-direction: row;
 	align-items: center;
-	justify-content:space-between;
-	flex-flow:wrap;
+	justify-content: space-between;
+	flex-flow: wrap;
 	text-align: center;
 }
 
@@ -85,7 +88,7 @@ body {
 }
 
 .center_panel ul {
-	font-size:14px;
+	font-size: 14px;
 	background-color: #333333;
 }
 
@@ -93,38 +96,38 @@ body {
 	padding-left: 68px;
 	width: 870px;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 
 .menu li{
 	display: inline-block;
-	color:#ffffff;
-	padding:8px 10px 10px;
+	color :#ffffff;
+	padding: 8px 10px 10px;
 }
 
 .menu a {
 	text-decoration: none;
-	color:#ffffff;
+	color: #ffffff;
 }
 
 .menu li span {
-	font-size:8px;
-	vertical-align:middle;
+	font-size: 8px;
+	vertical-align: middle;
 }
 
 .trip,
 .services,
 .partners {
-	position:relative;
+	position: relative;
 }
 
 .drop_menu {
-	position:absolute;
-	width:130px;
+	position: absolute;
+	width: 130px;
 	padding-left: 10px;
 	left: -1px;
-	top:31px;
-	display:none;
+	top: 31px;
+	display: none;
 	border-top: 1px solid #000;
 }
 
@@ -139,15 +142,24 @@ body {
 .menu .trip:hover ul,
 .menu .services:hover ul,
 .menu .partners:hover ul {
-	display:block;
+	display: block;
 }
 
+.main_page:hover a,
+.reviews:hover a,
+.about:hover a,
+.contacts:hover a{
+	text-decoration:underline;
+}
+.menu li ul li:hover a{
+	text-decoration:underline;
+}
 .services .drop_menu {
 	width: 90px;
 }
 
 .information {
-	float:left;
+	float: left;
 	border-right: 1px solid #c7cacf;
 }
 
@@ -161,7 +173,7 @@ body {
 	font-size: 18px;
 	width: 210px;
 	text-align: center;
-	color:#333333;
+	color: #333333;
 	line-height:24px;
 	padding-top:3px;
 	background-color: #edeef0;
@@ -182,6 +194,7 @@ body {
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
+
 .content {
 	box-shadow: 0 3px 0 #031d28;
 }
